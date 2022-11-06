@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 15vh 1fr 1fr;
+    grid-template-areas: 'sidebar header header'
+                         'sidebar projects announcements'
+                         'sidebar projects trending';
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 1rem;
+}
+
+.sidebar .sidebarButtons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 'topBar topBar'
+                         'welcome headerbuttons';
+}
+
+.header .topBar {
+    display: grid;
+    grid-area: topBar;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 1rem;
+    gap: 30px;
+}
+
+.header .topBar .notificationBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .welcomeBox {
+    display: flex;
+    gap: 5px;
+    margin: 0 1rem;
+}
+.header .headerButtons {
+    justify-self: center;
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-area: projects;
+    overflow: scroll;
+    max-height: 100vh;
+    gap: 15px;
+}
+
+.projects h2 {
+    grid-column: 1 /-1;
+    margin: 0 1rem;
+}
+
+.projectCard {
+    height: 200px;
+    border: solid;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+.announcements {
+    grid-area: announcements;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 1rem;
+}
+
+.announcements .announcementsContainer {
+    border: solid;
+    padding: 1rem ;
+    border-radius: 10px;
+}
+
+.trending {
+    grid-area: trending;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.trending .trendingContainer {
+    border:solid;
+    border-radius: 10px;
+}
