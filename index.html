@@ -5,39 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Open+Sans">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
 
         <div class="sidebar">
-            <h1 class="logo">Lorem</h1>
-            <div class="sidebarButtons">
-                <button class="sideButton">Home</button>
-                <button class="sideButton">Profile</button>
-                <button class="sideButton">Messages</button>
-                <button class="sideButton">History</button>
-                <button class="sideButton">Tasks</button>
-                <button class="sideButton">Communities</button>
+            <div class="logoBox">
+                <img id="logo" src="./images/v1032-v286-aew-071-health-logo.png" alt="">
+                <h1 class="name">L.O.R.E.M</h1>
             </div>
             <div class="sidebarButtons">
-                <button class="sideButton">Settings</button>
-                <button class="sideButton">Support</button>
-                <button class="sideButton">Privacy</button>
+                    <button class="sideButton"><img src="./icons/home.png" alt="home">Home</button></li>
+                    <button class="sideButton"><img src="./icons/account-details.png" alt="profile"> Profile</button>
+                    <button class="sideButton"><img src="./icons/message.png" alt="message"> Messages</button>
+                    <button class="sideButton"><img src="./icons/history.png" alt="history"> History</button>
+                    <button class="sideButton"><img src="./icons/format-list-numbered.png" alt="tasks"> Tasks</button>
+                    <button class="sideButton"><img src="./icons/account-group.png" alt="communities"> Communities</button>
+            </div>
+            <div class="sidebarButtons">
+                <button class="sideButton"><img src="./icons/cog.png" alt="settings"> Settings</button>
+                <button class="sideButton"><img src="./icons/help-circle.png" alt="Support"> Support</button>
+                <button class="sideButton"><img src="./icons/shield-check.png" alt="Privacy"> Privacy</button>
             </div>
         </div>
 
         <div class="header">
             <div class="topBar">
-                <input id="searchbox" type="search" name="search">
+                <label for="searchbox"><img src="./icons/magnify.png" alt="search"><input id="searchbox" type="search" name="search"></label>
                 <div class="notificationBox">
-                    <input class='dummyButton' type="image">
-                    <img src="" alt="User Profile Pic">
-                    <h4>James Bond</h4>
+                    <input src="./icons/bell-ring-outline-2.png" class='dummyButton' type="image">
+                    <div>
+                        <img src="./images/392109-PCF54L-277.jpg" alt="User Profile Pic">
+                        <h4>James Bond</h4>
+                    </div>
                 </div>
             </div>
             <div class="welcomeBox">
-                <img src="" alt="User Profile Pic">
+                <img src="./images/392109-PCF54L-277.jpg" alt="User Profile Pic">
                 <div>
                     <span>Hi there,</span>
                     <h3>James Bond (@007)</h3>
@@ -51,55 +57,55 @@
         </div>
 
         <div class="projects">
-            <h2>Your Projects</h2>
+            <h2>Your Missions</h2>
             <div class="projectCard">
-                <span>Project Title</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <span>Mission: Sign-Up Form</span>
+                <a href="http://RatedYK.github.io/odin-sign-up-form"><img class="projectImage" src="./images/SignUp.png" alt="Sign Up Form" height="auto"></a>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <span>Mission: Calculator</span>
+                <a href="http://RatedYK.github.io/odin-calculator"><img class="projectImage" src="./images/Calculator.png" alt="Calculator" height="auto"></a>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <span>Mission: Etch-n-Sketch</span>
+                <a href="http://RatedYK.github.io/odin-etch-n-sketch"><img class="projectImage" src="./images/EtchnSketch.png" alt="Etch-n-Sketch" height="auto"></a>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <span>Mission: RoShamBo Game</span>
+                <a href="http://RatedYK.github.io/odin-rockPaperScissors"><img class="projectImage" src="./images/RoshamBo.png" alt="RoShamBo" height="auto"></a>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <span>Mission: Landing Page</span>
+                <a href="http://RatedYK.github.io/odin-landing-page"><img class="projectImage" src="./images/LandingPage.png" alt="Landin Page" height="auto"></a>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
+                <span>Mission: Placeholder</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
+                <span>Mission: Placeholder</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
+                <span>Mission: Placeholder</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
             <div class="projectCard">
-                <span>Project Title</span>
+                <span>Mission: Placeholder</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+                <div><img src="./icons/heart-outline.png" alt="favourite"><img src="./icons/eye.png" alt="watch"><img src="./icons/export-variant.png" alt="share"></div></div>
         </div>
 
         <div class="announcements">
             <h2>Announcements</h2>
             <div class="announcementsContainer">
-                <span>annoucement title</span>
+                <span>M's New Policies</span>
                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 <hr>
-                <span>annoucement title</span>
+                <span>Q's New Gadgets</span>
                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 <hr>
-                <span>annoucement title</span>
+                <span>MI:6 Under Attack</span>
                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
             </div>
         </div>
@@ -108,31 +114,31 @@
             <h2>Trending</h2>
             <div class="trendingContainer">
                 <div class="trendingCard">
-                    <img src="" alt="">
+                    <img class="trendingPicture" src="./images/user4.png" alt="user">
                     <div class="info">
-                        <p>@Username</p>
-                        <p>Project Name</p>
+                        <p class="user">@leChiffre</p>
+                        <p>Casino Royale</p>
                     </div>
                 </div>
                 <div class="trendingCard">
-                    <img src="" alt="">
+                    <img class="trendingPicture" src="./images/user0.jpg" alt="user">
                     <div class="info">
-                        <p>@Username</p>
-                        <p>Project Name</p>
+                        <p class="user">@theGoldfinger</p>
+                        <p>Goldfinger</p>
                     </div>
                 </div>
                 <div class="trendingCard">
-                    <img src="" alt="">
+                    <img class="trendingPicture" src="./images/user1.png" alt="user">
                     <div class="info">
-                        <p>@Username</p>
-                        <p>Project Name</p>
+                        <p class="user">@moneypenny</p>
+                        <p>Skyfall</p>
                     </div>
                 </div>
                 <div class="trendingCard">
-                    <img src="" alt="">
+                    <img class="trendingPicture" src="./images/user2.png" alt="user">
                     <div class="info">
-                        <p>@Username</p>
-                        <p>Project Name</p>
+                        <p class="user">@q</p>
+                        <p>Spectre</p>
                     </div>
                 </div>
             </div>
