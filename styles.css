@@ -50,6 +50,7 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed';
+    font-size: 3rem;
 }
 
 h2 {
@@ -73,7 +74,7 @@ h2 {
     align-items: center;
     gap: 10px;
     border: none;
-    font-size: medium;
+    font-size: clamp(15px, 2vh, 2rem);
 }
 
 .sideButton:hover {
@@ -196,7 +197,7 @@ input[type=search] {
 .projectCard {
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
-    height: 250px;
+    height: 270px;
     padding: 2rem;
     box-shadow: 0 0 10px black;
     border-radius: 5px;
@@ -208,6 +209,7 @@ input[type=search] {
 .projectCard span {
     font-weight: bolder;
     font-size: larger;
+    font-family: 'Roboto Mono';
 }
 
 .projectCard p {
